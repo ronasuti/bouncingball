@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		DC618D5C17F56D45002671F4 /* CoreMotion.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DC618D5B17F56D45002671F4 /* CoreMotion.framework */; };
 		DCD47C2517E6EA8000B8CE7F /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DCD47C2417E6EA8000B8CE7F /* UIKit.framework */; };
 		DCD47C2717E6EA8000B8CE7F /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DCD47C2617E6EA8000B8CE7F /* Foundation.framework */; };
 		DCD47C2917E6EA8000B8CE7F /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DCD47C2817E6EA8000B8CE7F /* CoreGraphics.framework */; };
@@ -18,9 +19,11 @@
 		DCD47C3B17E6EA8000B8CE7F /* Default-568h@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = DCD47C3A17E6EA8000B8CE7F /* Default-568h@2x.png */; };
 		DCD47C3E17E6EA8000B8CE7F /* MainStoryboard.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = DCD47C3C17E6EA8000B8CE7F /* MainStoryboard.storyboard */; };
 		DCD47C4117E6EA8000B8CE7F /* XYZViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = DCD47C4017E6EA8000B8CE7F /* XYZViewController.m */; };
+		DCD47C4817E6ECBA00B8CE7F /* QuartzCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DCD47C4717E6ECBA00B8CE7F /* QuartzCore.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		DC618D5B17F56D45002671F4 /* CoreMotion.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreMotion.framework; path = System/Library/Frameworks/CoreMotion.framework; sourceTree = SDKROOT; };
 		DCD47C2117E6EA8000B8CE7F /* bouncingball.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = bouncingball.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		DCD47C2417E6EA8000B8CE7F /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
 		DCD47C2617E6EA8000B8CE7F /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
@@ -37,6 +40,7 @@
 		DCD47C3D17E6EA8000B8CE7F /* en */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = en; path = en.lproj/MainStoryboard.storyboard; sourceTree = "<group>"; };
 		DCD47C3F17E6EA8000B8CE7F /* XYZViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = XYZViewController.h; sourceTree = "<group>"; };
 		DCD47C4017E6EA8000B8CE7F /* XYZViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = XYZViewController.m; sourceTree = "<group>"; };
+		DCD47C4717E6ECBA00B8CE7F /* QuartzCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = QuartzCore.framework; path = System/Library/Frameworks/QuartzCore.framework; sourceTree = SDKROOT; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -44,6 +48,8 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				DC618D5C17F56D45002671F4 /* CoreMotion.framework in Frameworks */,
+				DCD47C4817E6ECBA00B8CE7F /* QuartzCore.framework in Frameworks */,
 				DCD47C2517E6EA8000B8CE7F /* UIKit.framework in Frameworks */,
 				DCD47C2717E6EA8000B8CE7F /* Foundation.framework in Frameworks */,
 				DCD47C2917E6EA8000B8CE7F /* CoreGraphics.framework in Frameworks */,
@@ -56,6 +62,8 @@
 		DCD47C1817E6EA8000B8CE7F = {
 			isa = PBXGroup;
 			children = (
+				DC618D5B17F56D45002671F4 /* CoreMotion.framework */,
+				DCD47C4717E6ECBA00B8CE7F /* QuartzCore.framework */,
 				DCD47C2A17E6EA8000B8CE7F /* bouncingball */,
 				DCD47C2317E6EA8000B8CE7F /* Frameworks */,
 				DCD47C2217E6EA8000B8CE7F /* Products */,
@@ -301,6 +309,7 @@
 				DCD47C4617E6EA8000B8CE7F /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
